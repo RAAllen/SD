@@ -2,6 +2,10 @@ public class PrintHeader
 {
   public static void main(String[] args)
   {
+    starWelcome();
+  }
+  public static void starWelcome()
+  {
     starLine();
     singleStarBorder();
     welcome();
