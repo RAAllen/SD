@@ -7,6 +7,7 @@ public class MyName
     lastName();
     System.out.println();
     fullName();
+    System.out.println();
   }
   public static void firstName()
   {
