@@ -7,6 +7,7 @@ public class ScannerInput
 		// Add a prompt to the code so that the user knows to enter data. Output the data.
 
 		int yearBorn;
+		boolean keepChatting;
 
 		Scanner keyboard = new Scanner(System.in);
 
@@ -17,6 +18,11 @@ public class ScannerInput
 		// output the data...
 		System.out.println("You were born in " + yearBorn + "? Wow, you're getting old.");
 		// Run the program.
+
+		System.out.println("Do you want to keep chatting? ( type true or false) ");
+		keepChatting = keyboard.nextBoolean();
+
+		System.out.println("You said " + keepChatting);
 
 		keyboard.close();
 	}
